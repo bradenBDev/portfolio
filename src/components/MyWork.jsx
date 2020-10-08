@@ -1,7 +1,7 @@
 import {
   Grid,
   Header,
-  Segment
+  Segment,
 } from "semantic-ui-react";
 import React from "react";
 import ProjectShowcaseItem from "./ProjectShowcaseItem";
@@ -21,7 +21,7 @@ function MyWork () {
                   fontSize: "4em",
                   fontWeight: "normal",
                   textAlign: "center",
-                  padding: "0 0 1em"
+                  padding: "0 0 1em",
                 }}
               >
                 My Work
@@ -54,8 +54,8 @@ function MyWork () {
               <ProjectShowcaseItem
                 projectTitle={"Todo List"}
                 projectDescription={"Keep track of your day."}
-                githubURL={"https://github.com/bradenBDev/Keeper-App"}
-                finishedURL={"https://bradenbdev.github.io/Keeper-App/"}
+                githubURL={"https://github.com/bradenBDev/Todo-List"}
+                finishedURL={"https://bradenb-todolist.herokuapp.com"}
               />
             </Grid.Column>
 
@@ -63,16 +63,16 @@ function MyWork () {
               <ProjectShowcaseItem
                 projectTitle={"This Site, Of Course"}
                 projectDescription={"Built with React."}
-                githubURL={"https://github.com/bradenBDev/Secrets-Website"}
+                githubURL={"https://github.com/bradenBDev/portfolio"}
                 finishedURL={""}
-                popupContent={{github: null, website: "You're already here!"}}
+                popupContent={{ github: null, website: "You're already here!" }}
               />
             </Grid.Column>
           </Grid.Row>
         </Grid>
       </Segment>
     </div>
-  )
+  );
 }
 
 export default MyWork;

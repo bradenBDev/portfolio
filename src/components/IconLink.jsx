@@ -10,12 +10,12 @@ function IconLink ({ content, url, iconName }) {
       trigger={
         <a href={url} target="_blank" rel="noopener noreferrer">
           <Icon
-            style={{fontSize: 38, color: "rgba(0,0,0,.87)"}}
+            style={{ fontSize: 38, color: "rgba(0,0,0,.87)" }}
             name={iconName}
-            link />
+            link/>
         </a>}
-      />
-  )
+    />
+  );
 }
 
 export default IconLink;

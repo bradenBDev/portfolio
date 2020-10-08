@@ -26,17 +26,18 @@ function HomepageLayout () {
           <DesktopContainer><HomepageHeading/></DesktopContainer>
         </Media>
         <Media as={Sidebar.Pushable} at="mobile">
-          <MobileContainer><HomepageHeading mobile /></MobileContainer>
+          <MobileContainer><HomepageHeading mobile/></MobileContainer>
         </Media>
       </MediaContextProvider>
       <ScrollAnimation animateIn="fadeIn" delay={150}>
-        <AboutMe />
+        <AboutMe/>
       </ScrollAnimation>
       <ScrollAnimation animateIn="fadeIn" delay={150}>
-        <MyWork />
+        <MyWork/>
       </ScrollAnimation>
-      <Footer />
+      <Footer/>
     </div>
-)}
+  );
+}
 
 export default HomepageLayout;

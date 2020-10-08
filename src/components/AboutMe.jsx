@@ -20,7 +20,7 @@ function AboutMe () {
                 style={{
                   fontSize: "4em",
                   fontWeight: "normal",
-                  textAlign: "center"
+                  textAlign: "center",
                 }}
               >
                 About Me
@@ -33,19 +33,38 @@ function AboutMe () {
                 Eager To Learn
               </Header>
               <p style={{ fontSize: "1.33em" }}>
-                I'm a Utah-based web developer with a passion for programming and learning.
+                I'm a Utah-based web developer with a passion for programming
+                and learning.
                 I've always had an interest in technology, and over the years,
-                I've taught myself digital music production, video editing, and for the past
-                three years, programming. I am always searching for a new opportunity to learn and to create
+                I've taught myself digital music production, video editing, and
+                for the past
+                three years, programming. I am always searching for a new
+                opportunity to learn and to create
                 something awesome.
               </p>
               <Header as="h3" style={{ fontSize: "2em" }}>
                 Passionate & Motivated
               </Header>
               <p style={{ fontSize: "1.33em" }}>
-                Since taking my first programming course in high school, I have been in
-                love with programming. I've worked on many personal projects and have
-                greatly diversified my skill set. Check out some of my most recent work below!
+                Since taking my first programming course in high school, I have
+                been in
+                love with programming. I've worked on many personal projects and
+                have
+                greatly diversified my skill set. Check out some of my most
+                recent work below!
+              </p>
+              <Header as="h3" style={{ fontSize: "2em" }}>
+                My Stack
+              </Header>
+              <p style={{ fontSize: "1.33em" }}>
+                <b>Front End Technologies:</b> Javascript, React, jQuery,
+                HTML/CSS, Bootstrap
+                <br/><br/>
+                <b>Back End Technologies:</b> Node.js, Express, Python,
+                MongoDB/Mongoose
+                <br/><br/>
+                <b>Other Skills:</b> Git, REST API Development, Web Automation &
+                Scraping
               </p>
             </Grid.Column>
             <Grid.Column floated="right" width={6}>
@@ -55,7 +74,7 @@ function AboutMe () {
         </Grid>
       </Segment>
     </div>
-  )
+  );
 }
 
 export default AboutMe;

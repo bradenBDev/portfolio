@@ -15,14 +15,18 @@ function ProjectShowcaseItem ({ projectTitle, projectDescription, githubURL, fin
       <p style={{ fontSize: "1.33em" }}>
         {projectDescription}
       </p>
-      <div style={{marginTop: "2em"}}>
+      <div style={{ marginTop: "2em" }}>
         <IconLink
-          content={!popupContent.github ? "Check out this project on GitHub" : popupContent.github}
+          content={!popupContent.github
+            ? "Check out this project on GitHub"
+            : popupContent.github}
           url={githubURL}
           iconName="github"
         />
         <IconLink
-          content={!popupContent.website ? "Go to the finished product" : popupContent.website}
+          content={!popupContent.website
+            ? "Go to the finished product"
+            : popupContent.website}
           url={finishedURL}
           iconName="globe"
         />

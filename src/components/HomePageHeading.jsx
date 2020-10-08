@@ -3,13 +3,13 @@ import {
   Button,
   Container,
   Header,
-  Segment
+  Segment,
 } from "semantic-ui-react";
 import { Link } from "react-scroll";
 import ScrollAnimation from "react-animate-on-scroll";
 
 
-function HomepageHeading ({mobile}) {
+function HomepageHeading ({ mobile }) {
   return (
     <Segment
       inverted
@@ -17,7 +17,7 @@ function HomepageHeading ({mobile}) {
       style={{ minHeight: mobile ? 500 : 725, padding: "0" }}
       vertical
     >
-      <Container text style={{padding: "4em 0"}}>
+      <Container text style={{ padding: "4em 0" }}>
         <ScrollAnimation animateIn="fadeIn" delay={150}>
           <Header
             as="h3"
@@ -48,7 +48,7 @@ function HomepageHeading ({mobile}) {
               fontSize: mobile ? "1.5em" : "1.7em",
               fontWeight: "normal",
               marginTop: mobile ? "0.5em" : "1.5em",
-              marginBottom: mobile ? "0.5em" : "1.5em"
+              marginBottom: mobile ? "0.5em" : "1.5em",
             }}
           />
           <Button primary size="huge"
@@ -63,6 +63,7 @@ function HomepageHeading ({mobile}) {
         </ScrollAnimation>
       </Container>
     </Segment>
-)}
+  );
+}
 
 export default HomepageHeading;
