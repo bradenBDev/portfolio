@@ -1,2 +1,1 @@
-#Portfolio Site
 This is the GitHub for my portfolio site, hosted using Pages. It uses a combination of React and Semantic UI React. Thanks to Semantic UI React's templates for giving me inspiration for the layout and design of the site!
